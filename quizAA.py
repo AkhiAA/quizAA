@@ -161,5 +161,28 @@ run_qa_loop(q10, a10, check10, q10Ans)
 #score
 print( "you got", grade *10, "%")
 
-
+if grade == 10: #100%
+    print("Great job, you really know me")
+elif grade == 9: #90%
+    print ("wow you almost got a perfect score")
+elif grade == 8: #80%
+    print("Not bad .. Not bad")
+elif grade == 7: #70%
+    print("you onlly got 3 questions wrong.. thats fine")
+elif grade == 6: #60%
+    print("try harder next time")
+elif grade == 5: #50%
+    print("wow you only got half the questions wrong")
+elif grade == 4: #40%
+    print("I think you should try to get to know me better")
+elif grade == 3: #30%
+    print("I dont think we've meet")
+elif grade == 2: #20%
+    print(" You shold try to get to know me better")
+elif grade == 1: #10%
+    print("Hi my name is akhi, i dont think we've meet")
+elif grade == 0: #0%
+    print("who are you")
+else:
+    print ( "try agin using a positive integer!")  # If the user does not input an integer
 
