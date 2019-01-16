@@ -1,4 +1,6 @@
  #quizAAfunc by akhi abdullalh
+global grade
+grade = 0
 
 # Define question/answer function.
 def run_qa_loop(qStr, qCheck, ansU, ansCor):
