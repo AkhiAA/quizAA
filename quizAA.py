@@ -1,4 +1,4 @@
- #quizAA by akhi abdullalh
+#quizAA by akhi abdullalh
 #global grade 
 global grade
 grade = 0
@@ -7,7 +7,6 @@ grade = 0
 from quizAAdata import *
 
 #quizAAfunc
-
 # Define question/answer function.
 def run_qa_loop(qStr, qCheck, ansU, ansCor):
     print(qStr)
